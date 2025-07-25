@@ -4,7 +4,7 @@ const handleWhatsAppClick = (e) => {
 
   const message = "Hi! I'd like to join the Mujiib Mentotship.";
   const encodedMessage = encodeURIComponent(message);
-  const phoneNumber = "2348132694876"; // Replace with your WhatsApp number
+  const phoneNumber = "2349049959760"; // Replace with your WhatsApp number
 
   const waLink = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
   window.open(waLink, "_blank");
