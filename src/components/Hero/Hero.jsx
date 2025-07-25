@@ -34,7 +34,7 @@ const Hero = () => {
 
           <div className="flex space-x-8">
             <a
-              href="#"
+              href="https://chat.whatsapp.com/HdG5h3cZLj94bGlkPSsivs?mode=ac_t"
               className="rounded-md bg-neutral-900 px-10 py-3 text-sm font-semibold text-white shadow-sm hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-500 transition"
             >
              Join Whatsapp Group
