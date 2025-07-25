@@ -7,8 +7,8 @@ const posts = [
     category: 'Market Insight',
     title: 'Top Down Analysis On EURNZD',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.',
-    href: '#',
+      'Explore a top-down analysis of EURNZD, dissecting key macroeconomic influences and technical levels to uncover potential trading opportunities. Gain insights into the factors driving this currency pair.',
+    href: 'https://vm.tiktok.com/ZMSv8BkN2/',
     imgSrc: blogImg,
     alt: 'Image',
     metadata: {
@@ -125,7 +125,7 @@ const Blogs = () => {
                       href="#"
                       className="flex items-center gap-x-2 text-base text-neutral-600"
                     >
-                      Read more
+                      Watch Now
                       <ChevronIcon aria-hidden="true" className="h-4 w-4" />
                     </a>
                   </div>
