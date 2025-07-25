@@ -1,112 +1,33 @@
-import styles from './Logos.module.css'
-const logos = [
-  {
-    id: 1,
-    name: 'Logo Name',
-    height: 35,
-    width: 130,
-    src: 'https://img.logoipsum.com/221.svg',
-  },
-  {
-    id: 2,
-    name: 'Logo Name',
-    height: 35,
-    width: 130,
-    src: 'https://img.logoipsum.com/220.svg',
-  },
-  {
-    id: 3,
-    name: 'Logo Name',
-    height: 35,
-    width: 130,
-    src: 'https://img.logoipsum.com/219.svg',
-  },
-  {
-    id: 4,
-    name: 'Logo Name',
-    height: 35,
-    width: 130,
-    src: 'https://img.logoipsum.com/218.svg',
-  },
-  {
-    id: 5,
-    name: 'Logo Name',
-    height: 35,
-    width: 130,
-    src: 'https://img.logoipsum.com/217.svg',
-  },
-  {
-    id: 6,
-    name: 'Logo Name',
-    height: 35,
-    width: 130,
-    src: 'https://img.logoipsum.com/216.svg',
-  },
-  {
-    id: 7,
-    name: 'Logo Name',
-    height: 35,
-    width: 130,
-    src: 'https://img.logoipsum.com/215.svg',
-  },
-  {
-    id: 8,
-    name: 'Logo Name',
-    height: 35,
-    width: 130,
-    src: 'https://img.logoipsum.com/214.svg',
-  },
-  {
-    id: 9,
-    name: 'Logo Name',
-    height: 35,
-    width: 130,
-    src: 'https://img.logoipsum.com/213.svg',
-  },
-  {
-    id: 10,
-    name: 'Logo Name',
-    height: 35,
-    width: 130,
-    src: 'https://img.logoipsum.com/212.svg',
-  },
-  {
-    id: 11,
-    name: 'Logo Name',
-    height: 35,
-    width: 130,
-    src: 'https://img.logoipsum.com/211.svg',
-  },
-];
+import React from "react";
 
-const Logos = () => {
-    // Duplicate the logos to create a seamless loop
-    const duplicatedLogos = [...logos, ...logos];
-  
-    return (
-      <div className="px-4 mx-auto mt-24 max-w-7xl sm:mt-32 sm:px-6 lg:mt-36 lg:px-8">
-        <div className="px-6 mx-auto max-w-7xl lg:px-8">
-          <h2 className="text-lg font-semibold leading-tight tracking-wide text-center text-neutral-900">
-            Trusted by the world’s most unknown companies
-          </h2>
-  
-          <div className={`mx-auto mt-10 overflow-hidde ${styles['animated-scroll']}`}>
-            <div className="flex space-x-4 sm:space-x-6 md:space-x-8 lg:space-x-10 xl:space-x-12 logos-container">
-              {duplicatedLogos.map((logo) => (
-                <img
-                  key={logo.id}
-                  className="object-contain w-auto max-h-10"
-                  src={logo.src}
-                  alt={logo.name}
-                  width={logo.width}
-                  height={logo.height}
-                />
-              ))}
-            </div>
+const AboutMentor = () => {
+  return (
+    <section className="bg-white py-16 px-6 md:px-12 lg:px-24 text-gray-800">
+      <div className="max-w-5xl mx-auto text-center">
+        <h2 className="text-3xl md:text-4xl font-bold mb-4">Meet Your Mentor</h2>
+        <p className="text-lg md:text-xl text-gray-600 mb-8">
+          With years of experience in the financial markets, I help aspiring traders understand price action, smart money concepts (SMC), and risk management — turning confusion into clarity.
+        </p>
+
+        <div className="flex flex-col lg:flex-row items-center gap-10">
+          <img
+            src="/mentor.jpg"
+            alt="Mentor"
+            className="w-48 h-48 rounded-full shadow-lg object-cover mx-auto"
+          />
+          <div className="text-left">
+            <h3 className="text-2xl font-semibold mb-2">Mujiib Ahmed</h3>
+            <p className="text-gray-700 mb-4">
+              I’ve mentored 200+ traders across Africa through a results-driven approach combining technical precision, mindset coaching, and live mentorship.
+            </p>
+            <p className="text-gray-600">
+              Whether you're a beginner or struggling to stay consistent, I’ll guide you through a system that’s simple, structured, and tailored to your goals.
+            </p>
           </div>
         </div>
       </div>
-    );
-  }
+    </section>
+  );
+};
 
-export default Logos
+export default AboutMentor;
