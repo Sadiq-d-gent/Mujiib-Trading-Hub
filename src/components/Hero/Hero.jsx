@@ -41,11 +41,10 @@ const Hero = () => {
             </a>
 
             <a
-              href="#"
-              onClick={handleWhatsAppClick}
+              href="https://t.me/+_LvcKUo1_Sk1ZDlk"
               className="rounded-md bg-gray-100 px-10 py-3 text-sm font-semibold text-emerald-900 shadow-sm ring-1 ring-inset ring-neutral-500 hover:bg-neutra-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-500"
             >
-              Contact Me
+              Join Telegram Channel
             </a>
           </div>
         </div>
