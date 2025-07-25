@@ -1,4 +1,5 @@
 import React from 'react';
+import blogImg from '../../assets/blog.jpg';
 
 const posts = [
   {
