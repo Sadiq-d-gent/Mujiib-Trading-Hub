@@ -13,7 +13,7 @@ const AboutMentor = () => {
           <img
             src="/mentor.jpg"
             alt="Mentor"
-            className="w-48 h-48 rounded-full shadow-lg object-cover mx-auto"
+            className="w-52 h-52 rounded-full shadow-lg object-cover mx-auto"
           />
           <div className="text-left">
             <h3 className="text-2xl font-semibold mb-2">Mujiib Ahmed</h3>
