@@ -1,7 +1,7 @@
 {
-  "name": "react-tailwind-landing-page",
+  "name": "Mujiib-trading-hub",
   "version": "0.1.0",
-  "homepage": "https://lonesahilnazir.github.io/react-tailwind-landing-page",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.17",
