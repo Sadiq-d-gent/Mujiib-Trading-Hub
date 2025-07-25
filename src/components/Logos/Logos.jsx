@@ -1,4 +1,5 @@
 import React from "react";
+import mentor from '../../assets/mentor.jpg';
 
 const AboutMentor = () => {
   return (
@@ -11,7 +12,7 @@ const AboutMentor = () => {
 
         <div className="flex flex-col lg:flex-row items-center gap-10">
           <img
-            src="/mentor.jpg"
+            src={mentor}
             alt="Mentor"
             className="w-52 h-52 rounded-full shadow-lg object-cover mx-auto"
           />
