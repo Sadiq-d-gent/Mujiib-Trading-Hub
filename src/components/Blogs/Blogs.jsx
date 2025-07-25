@@ -122,7 +122,7 @@ const Blogs = () => {
 
                   <div className="mt-6 flex items-center">
                     <a
-                      href="#"
+                      href="https://vm.tiktok.com/ZMSv8BkN2/"
                       className="flex items-center gap-x-2 text-base text-neutral-600"
                     >
                       Watch Now
