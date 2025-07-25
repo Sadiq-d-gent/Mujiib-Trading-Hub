@@ -102,7 +102,7 @@ const Footer = () => {
                 Address
               </h3>
               <p className="text-sm leading-6 text-neutral-600">
-                1234 North 1st Street, San Francisco, CA 94102
+                MTD ZARIA KADUNA
               </p>
             </div>
 
@@ -112,10 +112,10 @@ const Footer = () => {
               </h3>
               <p className="text-sm leading-6 text-neutral-600 ">
                 <a
-                  href="tel:+1-555-555-5555"
+                  href="tel:+2349049959760"
                   className="hover:text-neutral-700 hover:underline"
                 >
-                  +1 (555) 555-5555
+                  09049959760
                 </a>
               </p>
               <p className="text-sm leading-6 text-neutral-600">
