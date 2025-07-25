@@ -16,7 +16,7 @@ const AboutMentor = () => {
             className="w-52 h-52 rounded-full shadow-lg object-cover mx-auto"
           />
           <div className="text-left">
-            <h3 className="text-2xl font-semibold mb-2">FX_Sadiq_AH</h3>
+            <h3 className="text-2xl font-semibold mb-2">Fx_Sadiq_AH</h3>
             <p className="text-gray-700 mb-4">
               I’ve mentored 200+ traders across Africa through a results-driven approach combining technical precision, mindset coaching, and live mentorship.
             </p>
