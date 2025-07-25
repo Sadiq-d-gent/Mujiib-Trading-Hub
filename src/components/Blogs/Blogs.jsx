@@ -73,7 +73,7 @@ const Blogs = () => {
 
         <div className="mt-6 flex justify-center">
           <a
-            href="#"
+            href="https://www.tiktok.com/@fx_sadeeq_ah?_t=ZM-8yJsoFlbdTk&_r=1"
             className="rounded-md bg-white px-10 py-3 text-base font-medium text-neutral-900 shadow-sm ring-1 ring-inset ring-neutral-300 hover:bg-neutral-50"
           >
             View all
