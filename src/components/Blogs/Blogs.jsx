@@ -9,7 +9,7 @@ const posts = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.',
     href: '#',
-    imgSrc: {blogImg},
+    imgSrc: blogImg,
     alt: 'Image',
     metadata: {
       author: 'Sadiq FX',
