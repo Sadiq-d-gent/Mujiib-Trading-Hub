@@ -120,10 +120,10 @@ const Footer = () => {
               </p>
               <p className="text-sm leading-6 text-neutral-600">
                 <a
-                  href="mailto:info@codesnaps.io"
+                  href="mailto:sadiqauwal4537@gmail.com"
                   className="hover:text-neutral-700 hover:underline"
                 >
-                  info@codesnaps.io
+                  sadiqauwal4537@gmail.com
                 </a>
               </p>
             </div>
