@@ -5,7 +5,7 @@ function App() {
     <div className="h-full bg-slate-50min-h-screen bg-slate-50 text-gray-900">
       <Navbar />
       <Hero />
-      <Logos />
+      // <Logos />
       <About />
       <Pricing />
       <Blogs />
