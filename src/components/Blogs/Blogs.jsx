@@ -18,38 +18,7 @@ const posts = [
       date: 'July 25, 2025',
     },
   },
-  {
-    id: 2,
-    category: 'Category',
-    title: 'Blog title heading will go here',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.',
-    href: '#',
-    imgSrc: 'https://dummyimage.com/1280x800/d4d4d4/171717',
-    alt: 'Image',
-    metadata: {
-      author: 'Full Name',
-      authorImg: 'https://dummyimage.com/100x100/d4d4d4/171717',
-      datetime: '2023-05-01',
-      date: 'May 1, 2023',
-    },
-  },
-  {
-    id: 3,
-    category: 'Category',
-    title: 'Blog title heading will go here',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.',
-    href: '#',
-    imgSrc: 'https://dummyimage.com/1280x800/d4d4d4/171717',
-    alt: 'Image',
-    metadata: {
-      author: 'Full Name',
-      authorImg: 'https://dummyimage.com/100x100/d4d4d4/171717',
-      datetime: '2023-05-01',
-      date: 'May 1, 2023',
-    },
-  },
+  
 ];
 
 const Blogs = () => {
