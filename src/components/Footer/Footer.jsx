@@ -57,7 +57,7 @@ const navigation = {
     },
     {
       name: 'TikTok',
-      href: '#',
+      href: 'https://www.tiktok.com/@fx_sadeeq_ah?_t=ZM-8yJsoFlbdTk&_r=1',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" className="h-6 w-6" xmlns="http://www.w3.org/2000/svg">
           <path d="M21 8.16a5.5 5.5 0 0 1-3.36-1.1v6.7c0 4.26-3.11 7.6-7.15 7.6A6.39 6.39 0 0 1 4 15c0-3.58 2.89-6.5 6.49-6.5.17 0 .34 0 .51.02v3.3c-.17-.04-.34-.06-.51-.06a3.17 3.17 0 0 0 0 6.34c1.79 0 3.15-1.44 3.15-3.31V2h3.36c.17 1.12.8 2.16 1.7 2.83.58.44 1.25.73 1.96.83V8.16z" />
