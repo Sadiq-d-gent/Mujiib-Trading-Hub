@@ -4,18 +4,18 @@ import blogImg from '../../assets/blog.jpg';
 const posts = [
   {
     id: 1,
-    category: 'Category',
-    title: 'Blog title heading will go here',
+    category: 'Market Insight',
+    title: 'Top Down Analysis On EURNZD',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.',
     href: '#',
-    imgSrc: 'https://dummyimage.com/1280x800/d4d4d4/171717',
+    imgSrc: {blogImg},
     alt: 'Image',
     metadata: {
-      author: 'Full Name',
+      author: 'Sadiq FX',
       authorImg: 'https://dummyimage.com/100x100/d4d4d4/171717',
       datetime: '2023-05-01',
-      date: 'May 1, 2023',
+      date: 'July 25, 2025',
     },
   },
   {
