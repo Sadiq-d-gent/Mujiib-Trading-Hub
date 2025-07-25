@@ -18,7 +18,7 @@ const tiers = [
     name: 'Basic Class',
     id: 'tier-basic',
     href: '#',
-    price: { monthly: '₦50k', annually: '' },
+    price: { monthly: '₦20k', annually: '' },
     features: [
       '1. Beginner-friendly structure',
       '2. Full trading platform setup',
@@ -32,7 +32,7 @@ const tiers = [
     name: 'Advanced Class',
     id: 'tier-advanced',
     href: '#',
-    price: { monthly: '₦50k', annually: '' },
+    price: { monthly: '₦30k', annually: '' },
     features: [
       '1. Strategy-based learning',
       '2. Market structure mastery',
@@ -46,7 +46,7 @@ const tiers = [
     name: 'Masters Class',
     id: 'tier-masters',
     href: '#',
-    price: { monthly: '₦30k', annually: '' },
+    price: { monthly: '₦40k', annually: '' },
     features: [
       '1. Deep liquidity theory',
       '2. Advanced risk control',
